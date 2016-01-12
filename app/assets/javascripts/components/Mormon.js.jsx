@@ -40,6 +40,9 @@ class Mormon extends React.Component{
 
   sendData(){
     // this should send all the data that was collected as the user clicked through the survey
+    // are you still mormon? --> this.state.mormon
+    // are you still active? --> this.state.active
+    // do you have a testimony? --> this.state.testimony
     // $.ajax({
     //   url: '/users',
     //   type: 'POST',
