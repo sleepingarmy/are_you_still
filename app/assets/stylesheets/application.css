@@ -1,0 +1,85 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or any plugin's vendor/assets/stylesheets directory can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the bottom of the
+ * compiled file so the styles you add here take precedence over styles defined in any styles
+ * defined in the other CSS/SCSS files in this directory. It is generally better to create a new
+ * file per style scope.
+ *
+ *= require_tree .
+ *= require_self
+ */
+
+h1 {
+  font-family: 'Cabin';
+  font-size: 100px;
+}
+
+.column-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+}
+
+.hide {
+  display: none;
+}
+
+.button {
+  background-color:#44c767;
+  -moz-border-radius:28px;
+  -webkit-border-radius:28px;
+  border-radius:28px;
+  border:1px solid #18ab29;
+  display:inline-block;
+  cursor:pointer;
+  color:#ffffff;
+  font-family:Arial;
+  font-size:70px;
+  padding:16px 31px;
+  text-decoration:none;
+  text-shadow:0px 1px 0px #2f6627;
+  margin: 10px 20px 10px 20px;
+}
+.button:hover {
+  background-color:#5cbf2a;
+}
+.button:active {
+  position:relative;
+  top:1px;
+}
+
+textarea {
+  border-radius: 5px;
+  height: 100px;
+  width: 300px;
+  margin: 10px 10px 10px 10px;
+}
+
+input, textarea {
+  font-size: 20px;
+}
+
+.center {
+  text-align: center;
+}
+
+
+
+
+
+
+
+
+
+

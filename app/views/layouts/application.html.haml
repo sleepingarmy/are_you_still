@@ -1,0 +1,18 @@
+!!!
+%html
+  %head
+    %title AreYouStillMormon
+    = stylesheet_link_tag    'application', media: 'all'
+    = javascript_include_tag 'application'
+    = csrf_meta_tags
+
+    / google fonts
+    %link{:href => "https://fonts.googleapis.com/css?family=Bitter:400,700|Playfair+Display:400,900,700|Cabin:400,500,600,700", :rel => "stylesheet", :type => "text/css"}/
+    
+  %body
+    %p.notice
+      = notice
+    %p.alert
+      = alert
+
+    = yield

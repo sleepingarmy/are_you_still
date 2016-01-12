@@ -1,0 +1,23 @@
+biographical form 
+  first_name
+  middle_name
+  last_name
+  dob
+  current_location
+  hometown
+  still_mormon boolean
+  conditional based on still_mormon
+    if yes
+      define status
+    if no
+  status - active, less active, nonactive, resigned
+  public_status ?
+
+
+devise user
+user has one acccount
+
+
+admin view of data, export to something usable in excel
+
+

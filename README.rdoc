@@ -1,0 +1,12 @@
+== Are You Still Mormon?
+
+Are You Still Mormon is a toy web application that my brother pitched to me over the holiday break.  I thought it would be fun to do something not too serious that someone else has a vision for.  
+
+Visit areyoustillmormon.com soon to take part!
+
+== Stack
+
+* Ruby on Rails
+
+* React
+
